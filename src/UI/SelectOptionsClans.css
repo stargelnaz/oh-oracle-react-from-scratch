@@ -1,0 +1,39 @@
+li {
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.Tolum {
+  background-color: rgba(115, 163, 212, 255);
+  color: black;
+}
+.Rachanté {
+  background-color: rgba(233, 214, 60, 255);
+  color: black;
+}
+.Phylaxi {
+  background-color: rgba(55, 104, 38, 255);
+  color: white;
+}
+.Ha-Radia {
+  background-color: rgba(228, 48, 60, 255);
+  color: black;
+}
+.Ipaci {
+  background-color: rgba(149, 21, 158, 255);
+  color: white;
+}
+.Calyzon {
+  background-color: rgba(82, 0, 17, 255);
+  color: white;
+}
+.Vandran {
+  background-color: rgba(246, 100, 201, 255);
+  color: black;
+}
+.Nari {
+  background-color: rgba(100, 99, 97, 255);
+  color: white;
+}

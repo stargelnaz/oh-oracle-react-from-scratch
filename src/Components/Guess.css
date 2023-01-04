@@ -1,0 +1,38 @@
+.resource {
+  font-size: 1rem;
+}
+
+.guess-picker {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+  background-color: slategray;
+}
+.guess-picker__resource_row {
+}
+.guess-picker__vertical {
+  flex-direction: column;
+  border: white;
+}
+.guess-picker__horizontal {
+  display: flex;
+  flex-direction: row;
+  border: white;
+}
+
+.grid-col-span-2 {
+  grid-column: span 2;
+}
+.grid-col-span-3 {
+  grid-column: span 2;
+  background-color: blue;
+}
+
+.grid-weekly-guess {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
