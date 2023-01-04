@@ -93,8 +93,12 @@ function WeeklyGuess() {
             <td>
               <SelectOptionsClans />
             </td>
-            <td></td>
-            <td></td>
+            <td>
+              <SelectOptionsQTY />
+            </td>
+            <td>
+              <SelectOptionsClans />
+            </td>
           </tr>
 
           <tr className='orchidNFTs'>
