@@ -10,14 +10,22 @@ function SelectOptionsClans(props) {
     'Ipaci',
     'Calyzon',
     'Vandran',
-    'Nari'
+    'Nari',
   ];
 
-  const listClans = clans.map((clan) => (
-    <option value={clan} className={clan}>
-      {clan}
-    </option>
-  ));
+  const listClans = clans.map((clan) => {
+    const option = props.clanOptions.find((option) => option.clan === clan);
+    return (
+      <option
+        value={clan}
+        className={clan}
+        disabled={!option}
+        selected={option && option.selected}
+      >
+        {clan}
+      </option>
+    );
+  });
   return (
     <div>
       <select>{listClans}</select>
