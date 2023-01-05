@@ -1,6 +1,6 @@
 import './SelectOptionsClans.css';
 
-function SelectOptionsClans() {
+function SelectOptionsClans(props) {
   const clans = [
     '--Select Clan--',
     'Tolum',
@@ -12,12 +12,15 @@ function SelectOptionsClans() {
     'Vandran',
     'Nari'
   ];
+
   const listClans = clans.map((clan) => (
-    <option className={clan}>{clan}</option>
+    <option value={clan} className={clan}>
+      {clan}
+    </option>
   ));
   return (
     <div>
-      <select className={listClans}>{listClans}</select>
+      <select>{listClans}</select>
     </div>
   );
 }
