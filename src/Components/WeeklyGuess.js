@@ -12,6 +12,7 @@ function WeeklyGuess() {
       <AdminAddItems />
       <table>
         <h2>This guess will cost 15 KEIKI</h2>
+
         <table border='1'>
           <tr className='category'>
             <td colspan='6'>RESOURCE NFTs</td>

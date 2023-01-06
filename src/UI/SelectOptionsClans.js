@@ -1,4 +1,4 @@
-import './SelectOptionsClans.css';
+import './SelectOptions.css';
 
 function SelectOptionsClans(props) {
   const clans = [
@@ -10,16 +10,16 @@ function SelectOptionsClans(props) {
     'Ipaci',
     'Calyzon',
     'Vandran',
-    'Nari',
+    'Nari'
   ];
 
   const listClans = clans.map((clan) => {
     const option = props.clanOptions.find((option) => option.clan === clan);
     return (
       <option
+        disabled={!option}
         value={clan}
         className={clan}
-        disabled={!option}
         selected={option && option.selected}
       >
         {clan}
