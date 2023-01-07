@@ -2,7 +2,7 @@ import './SelectOptions.css';
 
 function SelectOptionsClans(props) {
   const clans = [
-    '--Select Clan--',
+    'Select Clan',
     'Tolum',
     'Rachanté',
     'Phylaxi',

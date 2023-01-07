@@ -61,3 +61,15 @@ option:disabled {
   color: gray !important;
   opacity: 1;
 }
+
+.notice {
+  font-size: 0.7rem;
+}
+
+.hint {
+  color: black;
+  background-color: black;
+}
+.hint:hover {
+  color: white;
+}
